@@ -1,0 +1,50 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: red;
+}
+h3{
+    color: navy;
+    
+}
+#but{
+    color: white;
+    background-color: navy;
+    padding:1em;
+    border-radius: 1em;
+    
+}
+
+@media screen and (max-width:480px){
+    h1{
+        font-size:small;
+    }
+    h3{
+        font-size:10px;
+ 
+    }
+    #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        flex-direction: column;
+    }
+    #but{
+        margin-top: 20px;
+        font-size:7px;
+        
+
+    }
+  
+   #qr-code{
+    border: 1px solid green;
+    font-size: 10px;
+   
+   }
+}
